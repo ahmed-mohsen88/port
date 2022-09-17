@@ -10,7 +10,7 @@ function Foooter() {
     <Container className="text-primary bg-dark text-center mt-2 mb-4 pb-4">
       <Row className="mt-2 mb-2">
         <h4 className="mb-4 mt-4">Important Link</h4>
-        <Col sm={2} className="offset-2">
+        <Col sm={2} className="offset-md-2">
           <Link to="/">Home</Link>
         </Col>
         <Col sm={2}>
@@ -34,7 +34,11 @@ function Foooter() {
       <Row>
         <Col>
           {" "}
-          <a href="https://www.facebook.com/AHMEDMOHSENSOBHI/" target="_blank"  rel="noreferrer">
+          <a
+            href="https://www.facebook.com/AHMEDMOHSENSOBHI/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span>
               <BsFacebook
                 style={{
@@ -64,7 +68,11 @@ function Foooter() {
           </a>
         </Col>
         <Col>
-          <a href="https://github.com/ahmed-mohsen88" target="_blank"  rel="noreferrer">
+          <a
+            href="https://github.com/ahmed-mohsen88"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsGithub
               style={{
                 fontSize: "50px",
