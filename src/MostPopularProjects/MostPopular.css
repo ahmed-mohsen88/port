@@ -1,0 +1,23 @@
+.Container__card{
+  margin-top: 2%;
+  border-radius: 20px;
+}
+
+.Row__card{
+  margin-top: 2%;
+  border-radius: 20px;
+}
+.col__card{
+  margin: auto;
+}
+.col__card img{
+  height: 200px;
+}
+
+.card__body{
+height: 150px;
+}
+.card_self{
+border: 2px solid grey !important;
+box-shadow: 1px 1px -5px grey;
+}

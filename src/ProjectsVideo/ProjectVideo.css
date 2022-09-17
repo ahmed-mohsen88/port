@@ -1,0 +1,13 @@
+.mySwiper{
+    width: 85%;
+}
+.VideoContainer{
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 23px;
+    padding: 10px 80px;
+}
+.Swipper__video{
+    width: 100%;
+}

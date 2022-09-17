@@ -1,0 +1,10 @@
+.main__About {
+  border-radius: 23px;
+  padding: 10px 80px;
+}
+.About__firstdiv,
+.About__second_div {
+  border: 5px solid grey !important;
+  border-radius: 23px;
+  box-shadow: 0 0 15px grey;
+}
