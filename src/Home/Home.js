@@ -4,6 +4,7 @@ import mainImg from "./3426526.jpg";
 import Zoom from "react-reveal/Zoom";
 import { HashLink } from "react-router-hash-link";
 import Foooter from "../Foooter/Foooter";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -42,9 +43,9 @@ function Home() {
         <Row>
           <Col className="offset-6">
             <Zoom delay={3000} duration={1000} left={true}>
-              <HashLink to="#Mostpop">
+              <Link to="/project">
                 <Button className="btn-outline-info">Browse My Project</Button>
-              </HashLink>
+              </Link>
             </Zoom>
           </Col>
         </Row>
@@ -55,7 +56,7 @@ function Home() {
         <p className="skills4">React JS</p>
         <p className="skills5">React-strap</p>
       </Container>
-      <Foooter/>
+      <Foooter />
     </>
   );
 }
